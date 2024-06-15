@@ -13,15 +13,29 @@ span{
 	justify-self: center;
 	align-self: center;
 	font-size: 2rem;
+	margin-left:20px;
 }
+
 body {
 	font-family: "Roboto",sans-serif;
+}
+section{
+	border-radius: 10px;
+	border: #36454f solid 1px;
+	height:250px;
+	margin-top:20px;
+	margin-left:20px;
 }
 footer{
 	background-color: #36454f;
 	display: grid;
 	justify-content:center;
 	align-content:center;
+	color:#bbb;
+	height:200px;
+}
+ul {
+    list-style: none;
 }
 
 /* mobile **************************/
@@ -34,18 +48,21 @@ header {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-header,
-main {
+header {
 	margin: 0 auto;
 }
-
+main{
+	margin: 20px;
+}
 h1 {
 	font-size: 2rem;
 }
 
 nav {
+	display: grid;
 	background-color: #36454f;
 	margin: 0 auto;
+	justify-content:center;
 	
 }
 nav  {
@@ -61,7 +78,7 @@ nav a {
 
 nav a:hover {
 	text-decoration:overline;
-	border: solid 1px #fff;
+	border: 1 1 1 100% 1px #fff;
 }
 
 .active {
@@ -70,12 +87,19 @@ nav a:hover {
 h2{
 	background-color: #36454f;
 }
+nav ul li{
+	text-align: center;
+}
 
 /* Larger Views ******************************/
 @media (min-width: 640px) {
+
 	nav li  {
 		display: flex;
 		justify-content: space-around;
+	}
+	span{
+		margin-left: 20px;
 	}
 	main{
 		display:grid;
@@ -90,9 +114,12 @@ h2{
 		margin-left: 20px;
 		margin-top:20px;
 		margin-bottom:20px;
+		list-style:none;
+		
 	}
-	section{
-		border-radius: 10px;
-		border: #36454f solid 1px;
+	
+	footer{
+		padding: 50px;
 	}
+	
 }
