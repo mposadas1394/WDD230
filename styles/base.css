@@ -22,7 +22,7 @@ body {
 section{
 	border-radius: 10px;
 	border: #36454f solid 1px;
-	height:250px;
+	height: 215px;
 	margin-top:20px;
 	margin-left:20px;
 }
@@ -36,6 +36,7 @@ footer{
 }
 ul {
     list-style: none;
+	margin-left:10px;
 }
 
 /* mobile **************************/
@@ -89,6 +90,10 @@ h2{
 }
 nav ul li{
 	text-align: center;
+}
+li{
+	margin-top: 10px;
+	margin-bottom:10px;
 }
 
 /* Larger Views ******************************/

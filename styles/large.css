@@ -1,8 +1,7 @@
 @media (min-width: 640px) {
 
-	nav li  {
+	nav ul  {
 		display: flex;
-		justify-content: space-around;
 	}
 	span{
 		margin-left: 20px;
@@ -23,7 +22,9 @@
 		list-style:none;
 		
 	}
-	
+	section{
+        height: 300px;
+    }
 	footer{
 		padding: 50px;
 	}
