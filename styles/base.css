@@ -80,7 +80,8 @@ header {
 	margin: 0 auto;
 }
 main{
-	margin: 20px;
+	margin:0;
+	padding: 20px;
 }
 #menu::before{
 	content: "☰";
