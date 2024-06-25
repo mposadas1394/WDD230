@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Matias Lfredo Posadas">
     <meta name="description" content="This is a HomePge ofr WDD 230 - Web Frontend Development course designe by Matias Alfredo Posadas">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +22,11 @@
     <header>
         <img src="images/officialprofile.jpg" alt="Matias Alfredo Posadas">
         <span>Matias Alfredo Posadas</span>
+        <div id="mode">
+            🕶️
+        </div>
     </header>
+    <button id="menu"></button>
     <nav>
         <ul>
             <li><a href="">Home</a></li>
@@ -36,7 +41,7 @@
             <h2>Learning Activities</h2>
             <ul>
                 <li>Week 01<a href=""></a></li>
-                <li>Week 02<a href="https://codepen.io/matias-posadas/pen/WNBzoWo?editors=0010"></a></li>
+                <li>Week 02<a href="https://codepen.io/matias-posadas/pen/WNBzoWo?editors=0010">Hamburguer Menu</a></li>
                 <li>Week 03<a href=""></a></li>
                 <li>Week 04<a href=""></a></li>
                 <li>Week 05<a href=""></a></li>
@@ -52,5 +57,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamButton.js"></script>
 </body>
 </html>
